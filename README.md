@@ -10,6 +10,6 @@ Para inserir um mapa na base de dados: curl -i -X POST -H 'Content-Type:text/xml
 
 Para listar os dados inseridos no mapa: curl -i -X GET http://localhost:8080/EntregandoMercadorias/webservice/basedados/listar
 
-Para fazer a pesquisa do melhor caminho: curl -i -X GET http://localhost:8080/EntregandoMercadorias/webservice/melhorcaminho/A/D/10/2.5 (uri=melhorcaminho////)
+Para fazer a pesquisa do melhor caminho: curl -i -X GET http://localhost:8080/EntregandoMercadorias/webservice/melhorcaminho/A/D/10/2.5 (uri=melhorcaminho/origem/destino/autonomia/preco_combustivel)
 
 Para apagar todos os registros da base de dados: curl -i -X DELETE http://localhost:8080/EntregandoMercadorias/webservice/basedados/limpar
